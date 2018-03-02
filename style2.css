@@ -8,11 +8,13 @@
 }
 .nav-list {
 	text-align: center;
-	height: 70px;position: absolute;
+	height: 70px;
 	background-color:#EC715F;
+	background-image: url(img/logo.png);
 }
 .nav-list-item {
 	display: inline-block;
 	font-size: 16px;
 	color: #f7f7f7;
+	
 }
