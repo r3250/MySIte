@@ -1,5 +1,5 @@
 *{
-	margin: 0;
+	margin:  0;
 	padding: 0;
 	box-sizing: border-box;
 }
@@ -19,18 +19,18 @@ nav{
 }
 
 nav img{
-	height: 70px;
+	height: 76px;
 }
 
 .nav-list {
 	text-align: center;
-	height: 70px;
+	height: 76px;
 	background-color:#EC715F;
 	float: right;
 }
 .nav-list-item {
 	display: inline-block;
-	line-height: 70px;
+	line-height: 76px;
 	padding: 0 10px;
 	font-size: 16px;
 	color: #fafafa;
@@ -128,7 +128,7 @@ main {
 	color: #000000;
 	padding: 90px 0 8px 0;
 }
-.feature-hedline:after {
+.feature-headline::after {
   content: '';
   width: 60px;
   height: 5px;
@@ -136,7 +136,6 @@ main {
   background-color: #EC715F;
   margin: auto;
 }
-
 .feature-text {
 	text-align: center;
 	height: auto;
@@ -144,34 +143,34 @@ main {
 	color: #000000;
 	margin-top: 30px;
 }
-.social {
+.social-box1 {
+	width: 320px;
+	padding: 30px 0 90px 0;
+	float: left;
 	text-align: center;
 }
 .fa-ban {
 	font-size: 60px;
 }
-.fa-battery-three-quarters{
-	font-size: 60px;
-}
-.fa-bell-slash {
-	font-size: 60px;
-}
-.social-box1 {
-	display: inline-block;
-	width: 320px;
-	padding: 30px 0 90px 0;
-}
+
 .social-box2 {
-	display: inline-block;
 	margin: 0 10px 0 10px;
 	width: 320px;
 	padding: 30px 0 90px 0;
-
+	float: left;
+	text-align: center;
+}
+.fa-battery-three-quarters{
+	font-size: 60px;
 }
 .social-box3 {
-	display: inline-block;
 	width: 320px;
 	padding: 30px 0 90px 0;
+	float: left;
+	text-align: center;
+}
+.fa-bell-slash {
+	font-size: 60px;
 }
 
 .social-headline{
@@ -388,11 +387,16 @@ footer {
 		margin-bottom: 30px;
 	}
 	.portfolio-text {
-		width: 90%;
-		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 20px;
 	}
 	.portfolio-item {
-		margin-top: 20px;
+		width: 250px;
+		margin:0 auto;
+	}
+	.portfolio-image {
+		width: 250px;
+		height: 300px;
 	}
 
 	.portfolio-image:nth-child(1) {
@@ -405,15 +409,12 @@ footer {
 		display: none;
 	}
 	.portfolio-image:nth-child(2) {
-		width: 99%;
 		margin: 0 auto;
 	}
 	.portfolio-image:nth-child(4) {
-		width: 99%;
 		margin: 10px auto;
 	}
 	.portfolio-image:nth-child(6) {
-		width: 99%;
 		margin: 0 auto;
 	}
 
@@ -424,6 +425,23 @@ footer {
 		width: 94%;
 		margin: 0 auto;
 	}
+	.social-box {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.social-box1 {
+		float: none;
+		margin: 0 auto;
+	}
+	.social-box2 {
+		float: none;
+		margin: 0 auto;
+	}
+	.social-box3 {
+		float: none;
+		margin: 0 auto;
+	}
+
 	.profile-box {
 		width: 100%;
 	}
